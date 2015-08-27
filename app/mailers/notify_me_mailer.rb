@@ -1,6 +1,7 @@
 class NotifyMeMailer < ActionMailer::Base
-  default from: "from@example.com"
+  default from: "info@movierama.dev"
 
   def movie_liked(email)
+    mail(to: email, subject: 'Somebody has liked your movie')
   end
 end
