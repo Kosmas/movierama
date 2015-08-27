@@ -4,4 +4,7 @@ class NotifyMeMailer < ActionMailer::Base
   def movie_liked(email)
     mail(to: email, subject: 'Somebody has liked your movie')
   end
+
+  def movie_hated(email)
+  end
 end
