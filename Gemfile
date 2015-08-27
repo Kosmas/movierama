@@ -60,8 +60,9 @@ gem 'pry-doc'
 
 
 group :test do
-  gem 'guard-rspec'    # Continuous testing
-  gem 'rspec-rails'    # Test framework with Rail extensions
-  gem 'poltergeist'    # Driver for PhantomJS headless browser
-  gem 'capybara'       # DSL for browser control
+  gem 'guard-rspec'             # Continuous testing
+  gem 'rspec-rails'             # Test framework with Rail extensions
+  gem 'poltergeist'             # Driver for PhantomJS headless browser
+  gem 'capybara'                # DSL for browser control
+  gem 'email_spec', '~> 1.6.0'  # for email testing
 end
