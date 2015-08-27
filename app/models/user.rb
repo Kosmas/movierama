@@ -14,4 +14,7 @@ class User < BaseModel
 
   # Submitted movies
   collection :movies, :Movie
+
+  # Add email for sending notifications
+  attribute :email
 end
